@@ -1,0 +1,11 @@
+<view>
+<text>
+企业名称：{{buName}}
+
+企业地址：{{buAddr}}
+
+联系方式：{{buContact}}
+
+备案时间:{{buCrttime}}
+</text>
+</view>
