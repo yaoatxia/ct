@@ -14,7 +14,7 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
-const ip = "http://localhost:8080/"
+const ip = "http://zs.sdcom.gov.cn/"//"http://localhost:8080/"
 
 //获取日期格式化字符串
 const getDateFormat = function (date, format) {

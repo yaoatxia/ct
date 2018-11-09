@@ -16,6 +16,9 @@ Page({
   },
   getBusiBase: function (e) {
     var searchText = e.detail.value;
+    if(searchText==''){
+      return false;
+    }
     var bu_this = this;
     wx.request({
       url: util.ip+'ctweb/portal/busi.do?method=busiList', //接口地址
@@ -23,8 +26,12 @@ Page({
         searchText: searchText
       },
       header: {
-        'content-type': 'application/json' // 默认值
+        "Content-Type": "application/x-www-form-urlencoded"
       },
+      method: "POST",
+     /* header: {
+        'content-type': 'application/json' // 默认值
+      },*/
       success(res) {
         console.log(res.data);
         bu_this.setData({

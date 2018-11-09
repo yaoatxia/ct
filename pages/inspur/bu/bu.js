@@ -6,12 +6,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    buName: {},
-    buAddr: {},
-    butel: {},
-    buPhone: {},
-    buQQ: {},
-    buContact: {}
+    buName: '',
+    buAddr: '',
+    butel: '',
+    buPhone: '',
+    buQQ: '',
+    buContact: ''
   },
   /**
    * 生命周期函数--监听页面加载
