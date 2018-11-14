@@ -56,5 +56,10 @@ Page({
     wx.navigateTo({
       url: '../inspur/bulist/bulist'
     })
+  },
+  getTrace: function (e) {
+    wx.navigateTo({
+      url: '../inspur/trace/trace'
+    })
   }
 })

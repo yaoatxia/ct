@@ -1,1 +1,4 @@
 /* pages/inspur/bulist/bulist.wxss */
+.key{
+    color:red;
+}

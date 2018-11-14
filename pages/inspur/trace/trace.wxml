@@ -1,0 +1,4 @@
+  <input type='text' name='buname' placeholder='输入追溯码' bindinput='getBusiBase'></input>
+  <view wx:for="{{buArray}}" wx:for-index="idx" wx:for-item="item">
+   <text bindtap='getBusi' data-id="{{item.BUSI_CODE}}">{{item.BUSI_NAME}}</text>
+</view>

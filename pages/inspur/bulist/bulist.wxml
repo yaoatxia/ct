@@ -1,4 +1,6 @@
-  <input type='text' name='buname' placeholder='输入企业名称' bindinput='getBusiBase'></input>
+  <input type='text' name='buname' placeholder='输入想要查询的企业名称' bindinput='getBusiBase' maxlength='20' value='{{searchText}}'></input>
+  <button bindtap='cancel'>取消</button>
   <view wx:for="{{buArray}}" wx:for-index="idx" wx:for-item="item">
-   <text bindtap='getBusi' data-id="{{item.BUSI_CODE}}">{{item.BUSI_NAME}}</text>
+   <text bindtap='getBusi' data-id="{{item.BUSI_CODE}}">
+   {{item.name1}}<text class='key'>{{item.name2}}</text>{{item.name3}}</text>
 </view>

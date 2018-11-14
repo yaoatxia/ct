@@ -9,7 +9,8 @@
   </view>
   <view>
 
-  <button bindtap='getBusiBase'>点击查询</button>
+  <button bindtap='getBusiBase'>点击查询企业信息</button>
+  <button bindtap='getTrace'>点击查询追溯码</button>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>

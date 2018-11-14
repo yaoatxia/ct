@@ -1,9 +1,0 @@
-  <input type='text' name='epname' placeholder='输入企业名称' bindinput='getBusiBase'></input>
-  <view wx:for="{{epArray}}" wx:for-index="idx" wx:for-item="item">
-   <text bindtap='getBusi' data-id="{{item.BUSI_CODE}}">{{item.BUSI_NAME}}</text>
-</view>
-<view>
-<text>
-{{erDetail}}
-</text>
-</view>

@@ -1,0 +1,5 @@
+/* pages/inspur/list/list.wxss */
+page{
+  width: 100%;
+  height: 120%;
+}

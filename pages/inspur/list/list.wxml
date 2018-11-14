@@ -1,0 +1,6 @@
+<!--pages/inspur/list/list.wxml-->
+<text>{{cname}}</text>
+  <view wx:for="{{list}}" wx:for-index="idx" wx:for-item="item">
+   <text bindtap='getBusi' data-id="{{item.NOTICE_ID}}"> {{item.NOTICE_TITLE}}</text>
+</view>
+<view>{{bottom}}</view>

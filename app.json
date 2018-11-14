@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/inspur/list/list",
+    "pages/demo/demo",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/ep/ep",
-    "pages/ep/epdetail/epdetail",
     "pages/inspur/bulist/bulist",
-    "pages/inspur/bu/bu"
+    "pages/inspur/bu/bu",
+    "pages/inspur/trace/trace"
   ],
   "window": {
     "backgroundTextStyle": "light",
